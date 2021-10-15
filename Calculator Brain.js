@@ -3,7 +3,7 @@ var ep;
 pant="";
 ep=document.getElementById("op");
 
-function write (x1) {
+function write (x1){
 	pant=pant;
 	ep.innerHTML=pant;
 	//linebreak();
