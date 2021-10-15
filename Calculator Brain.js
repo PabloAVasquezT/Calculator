@@ -6,12 +6,12 @@ ep=document.getElementById("op");
 function write (x1) {
 	pant=pant+x1;
 	ep.innerHTML=pant;
-	linebreak();
+	//linebreak();
 }
 function write2 (x2){
 	er=document.getElementById(x2);
-	c=er.innerHTML;
-	pant=pant+c;
+	c2=er.innerHTML;
+	pant=pant+c2;
 	ep.innerHTML=pant;
 	linebreak();
 }
