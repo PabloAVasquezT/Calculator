@@ -3,11 +3,11 @@ var ep;
 pant="";
 ep=document.getElementById("op");
 
-//function write (x1){
-	//pant=pant+x1;
-	//ep.innerHTML=pant;
-	//linebreak();
-//}
+function write1 (x1){
+	pant=pant+x1;
+	ep.innerHTML=pant;
+	linebreak();
+}
 function write2 (x2){
 	er=document.getElementById(x2);
 	c2=er.innerHTML;
