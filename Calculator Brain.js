@@ -4,7 +4,7 @@ pant="";
 ep=document.getElementById("op");
 
 function write (x1){
-	pant=pant;
+	//pant=pant+x1;
 	ep.innerHTML=pant;
 	//linebreak();
 }
