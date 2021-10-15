@@ -5,7 +5,7 @@ ep=document.getElementById("op");
 
 function write (x1){
 	//pant=pant+x1;
-	ep.innerHTML=pant;
+	//ep.innerHTML=pant;
 	//linebreak();
 }
 function write2 (x2){
