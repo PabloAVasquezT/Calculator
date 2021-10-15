@@ -3,24 +3,24 @@ var ep;
 pant="";
 ep=document.getElementById("op");
 
-function escribir (x1) {
+function write (x1) {
 	pant=pant+x1;
 	ep.innerHTML=pant;
-	saltodelinea();
+	linebreak();
 }
-function escribir2 (x2){
+function write2 (x2){
 	er=document.getElementById(x2);
 	c=er.innerHTML;
 	pant=pant+c;
 	ep.innerHTML=pant;
-	saltodelinea();
+	linebreak();
 }
-function saltodelinea(){
+function linebreak(){
 	if (pant.length==24 || pant.length==52) {
 		pant=pant+"<br>";
 	}
 }
-function borrar(){
+function erase(){
 	pant="";
 	ep.innerHTML=pant;
 }
